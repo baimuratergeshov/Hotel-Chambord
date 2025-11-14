@@ -31,9 +31,9 @@ main {
 .job-offer {
   background: white;
   margin: 1rem 0;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 .job-offer h2 {
   margin-top: 0;
@@ -52,9 +52,9 @@ footer {
 /* formulaire */
 .application-form {
   background: white;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 .application-form h2 {
   margin-top: 0;
