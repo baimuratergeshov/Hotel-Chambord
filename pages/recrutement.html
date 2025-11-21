@@ -60,12 +60,12 @@
             </div>
         </div>
     </nav>
+    <!-- Bande avec  "Recrutement" -->
     <div class="title">
         <h1 class="">Recrutement</h1>
     </div>
-    <main class="">
-
-        <div class="recrutement">
+    <main>
+        <div>
             <h3>Rejoignez notre équipe</h3>
             <p>Nous somme toujours à la recherche de nouveaux talents pour rejoindre notre équipe à l'hôtel Chambord. Si
                 vous êtes passionné(e) par l'hôtellerie et que vous souhaitez travailler dans un cadre exceptionnel,
@@ -73,63 +73,82 @@
             </p>
         </div>
 
-        <div class="job-offer">
-            <h2 class="job-offer h2">Commis de Cuisine</h2>
-            <p class="job-offer p">
-                <strong>Description du poste :</strong> Nous recherchons un(e) commis de cuisine motivé(e) pour
-                rejoindre notre équipe. Vous serez en charge de la préparation des ingrédients, de l'entretien de la
-                cuisine et de l'assistance au chef.
-                <br>
-                <strong>Profil recherché :</strong> Dynamique, organisé(e) et passionné(e) par la cuisine.
-                <br>
-                <strong>Lieu :</strong> Chambord
-                <br>
-                <strong>Contact :</strong> recrutement@chambord.fr
-            </p>
+        <!-- Offre d'emploi -->
+
+        <div class="card" style="width: 100%;">
+            <div class="card-body">
+                <h3 class="card-title">Commis de Cuisine</h3>
+                <p class="card-text">
+                    <strong>Description du poste :</strong> Nous recherchons un(e) commis de cuisine motivé(e) pour
+                    rejoindre notre équipe. Vous serez en charge de la préparation des ingrédients, de l'entretien de la
+                    cuisine et de l'assistance au chef.
+                    <br>
+                    <strong>Profil recherché :</strong> Dynamique, organisé(e) et passionné(e) par la cuisine.
+                    <br>
+                    <strong>Lieu :</strong> Chambord
+                    <br>
+                    <strong>Contact :</strong> recrutement@chambord.fr
+            </div>
         </div>
-        <div class="job-offer">
-            <h2 class="job-offer h2">Agent d'Accueil</h2>
-            <p class="job-offer p">
-                <strong>Description du poste :</strong> Nous recherchons un(e) agent d'accueil pour accueillir les
-                visiteurs, fournir des informations et assurer une expérience agréable.
-                <br>
-                <strong>Profil recherché :</strong> Sourire, sens du contact et maîtrise du français et de l'anglais.
-                <br>
-                <strong>Lieu :</strong> Chambord
-                <br>
-                <strong>Contact :</strong> recrutement@chambord.fr
-            </p>
+        <div class="card" style="width: 100%;">
+            <div class="card-body">
+                <h3 class="card-title">Agent d'Accueil</h3>
+                <p class="card-text">
+
+                    <strong>Description du poste :</strong> Nous recherchons un(e) agent d'accueil pour accueillir les
+                    visiteurs, fournir des informations et assurer une expérience agréable.
+                    <br>
+                    <strong>Profil recherché :</strong> Sourire, sens du contact et maîtrise du français et de
+                    l'anglais.
+                    <br>
+                    <strong>Lieu :</strong> Chambord
+                    <br>
+                    <strong>Contact :</strong> recrutement@chambord.fr
+            </div>
         </div>
-        <div class="job-offer">
-            <h2 class="job-offer h2">Femme de Chambre</h2>
-            <p class="job-offer p">
-                <strong>Description du poste :</strong> Nous recherchons une femme de chambre pour assurer la propoté et
-                l'entretien des chambres de l'hôtel.
-                <br>
-                <strong>Profil recherché :</strong> Sens de l'organisation, rigueur et discrétion.
-                <br>
-                <strong>Lieu :</strong> Chambord
-                <br>
-                <strong>Contact :</strong> recrutement@chambord.fr
-            </p>
+        <div class="card" style="width: 100%;">
+            <div class="card-body">
+                <h3 class="card-title">Femme de Chambre</h3>
+                <p class="card-text">
+
+                    <strong>Description du poste :</strong> Nous recherchons une femme de chambre pour assurer la
+                    propoté et
+                    l'entretien des chambres de l'hôtel.
+                    <br>
+                    <strong>Profil recherché :</strong> Sens de l'organisation, rigueur et discrétion.
+                    <br>
+                    <strong>Lieu :</strong> Chambord
+                    <br>
+                    <strong>Contact :</strong> recrutement@chambord.fr
+            </div>
         </div>
 
+        <!-- Formulaire de candidature -->
         <div class="application-form">
             <h2 class="application-form h2">Postuler</h2>
-            <label for="" class="application-form label">Nom :
-                <input class="application-form input" type="text">
-            </label>
-            <label for="" class="application-form label">Prénom :
-                <input class="application-form input" type="text">
-            </label>
-            <label for="" class="application-form label">Email :
-                <input class="application-form input" type="email">
-            </label>
-            <label for="" class="application-form label">CV (PDF) :
-                <input class="application-form input" type="file">
-                <input class="application-form input" type="file">
-            </label>
-            <button class="application-form button">Envoyez ma candidature</button>
+            <div class="mb-3">
+                <label for="formGroupNameInput" class="form-label">Nom :</label>
+                <input type="text" class="form-control" id="formGroupNameInput" placeholder="Entrez votre nom ici.">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupNicknameInput" class="form-label">Prénom :</label>
+                <input type="text" class="form-control" id="formGroupNicknameInput"
+                    placeholder="Entrez votre prénom ici.">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupEmailInput" class="form-label">E-mail :</label>
+                <input type="text" class="form-control" id="formGroupEmailInput" placeholder="Entrez votre e-mail ici.">
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">CV (PDF) :</label>
+                <input class="form-control" type="file" id="formFile">
+
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <!-- Bouton pour envoyer la candidature -->
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Envoyez votre candidature</button>
+            </div>
         </div>
     </main>
     <!-- section : footer -->
