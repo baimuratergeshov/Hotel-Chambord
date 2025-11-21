@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* centre horizontalement */
+}
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 1px;
+    width: 70%;
+    border-radius: 10px ;
+}
+
+.reservation .titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservation button {
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
