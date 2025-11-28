@@ -50,6 +50,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Compte</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="connexion.html">Se connecter</a></li>
+                            <li><a class="dropdown-item" href="inscription.html">S'inscrire</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <form class="d-flex" role="search" method="get">
                     <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search" />
@@ -128,16 +136,15 @@
             <h2 class="application-form h2">Postuler</h2>
             <div class="mb-3">
                 <label for="formGroupNameInput" class="form-label">Nom :</label>
-                <input type="text" class="form-control" id="formGroupNameInput" placeholder="Entrez votre nom ici.">
+                <input type="text" class="form-control" id="formGroupNameInput" placeholder="Entrez votre nom ">
             </div>
             <div class="mb-3">
                 <label for="formGroupNicknameInput" class="form-label">Prénom :</label>
-                <input type="text" class="form-control" id="formGroupNicknameInput"
-                    placeholder="Entrez votre prénom ici.">
+                <input type="text" class="form-control" id="formGroupNicknameInput" placeholder="Entrez votre prénom ">
             </div>
             <div class="mb-3">
                 <label for="formGroupEmailInput" class="form-label">E-mail :</label>
-                <input type="text" class="form-control" id="formGroupEmailInput" placeholder="Entrez votre e-mail ici.">
+                <input type="text" class="form-control" id="formGroupEmailInput" placeholder="Entrez votre e-mail ">
             </div>
             <div class="mb-3">
                 <label for="formFile" class="form-label">CV (PDF) :</label>
@@ -166,6 +173,9 @@
     <!-- script javascript -->
     <script src="../js/bootstrap.js"></script>
     <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
