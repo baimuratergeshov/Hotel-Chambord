@@ -57,6 +57,15 @@ body {
   z-index: 1;
   height: 88vh;
 }
+/* bandeau-bg-inscription */
+.bandeau-bg-inscription {
+  background-image: url("../img/inscription.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 1rem 0;
+  z-index: 1;
+  height: 88vh;
+}
 /* Logo  */
 .logo {
   display: block;
@@ -99,3 +108,4 @@ section.fade-in {
 .test {
   border: red 1px solid;
 }
+
