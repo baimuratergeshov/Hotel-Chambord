@@ -68,7 +68,7 @@ body {
 }
 /* bandeau-bg-404 */
 .bandeau-bg-404 {
-  background-image: url("img/404.avif");
+  background-image: url("../img/404.avif");
   background-size: cover;
   background-position: center;
   padding: 1rem 0;
@@ -117,6 +117,7 @@ section.fade-in {
 .test {
   border: red 1px solid;
 }
+
 
 
 
