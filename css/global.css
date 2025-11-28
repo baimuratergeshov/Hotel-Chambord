@@ -77,7 +77,7 @@ body {
 }
 
 /* bandeau-bg-connexion */
-.bandeau-bg-connexion{
+.bandeau-bg-connexion {
   background-image: url("../img/log_in.jpg");
   background-size: cover;
   background-position: center;
@@ -106,8 +106,8 @@ body {
   height: 88vh;
 }
 
-.bandeau-bg-contact{
-  background-image: url("../img/contact.jpeg");
+.bandeau-bg-contact {
+  background-image: url("../img/contact.jpg");
   background-size: cover;
   background-position: center;
   padding: 1rem 0;
@@ -157,6 +157,7 @@ section.fade-in {
 .test {
   border: red 1px solid;
 }
+
 
 
 
