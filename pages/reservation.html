@@ -63,14 +63,14 @@
     </nav>
     <!-- section : main -->
     <main class="container my-4">
-        <section class="reservation" name="" id="res_chambre">
-            <div class="titre mb-3">
+        <section class="reservation mb-4" name="" id="res_chambre">
+            <div class="titre mb-3 text-center">
                 <h1>Réservation des Chambres</h1>
                 <p>Réservez votre séjour à l'Hôtel Chambord en quelques clics</p>
             </div>
 
 
-            <div class="mb-3">
+            <div class="mb-3 w-50">
                 <label for="pet-select" class="form-label">Type de chambres :</label>
                 <select class="form-control" id="pet-select">
                     <option value="">Choisissez une option</option>
@@ -95,18 +95,21 @@
                 <input type="date" class="form-control" id="exampleFormControlInput1">
             </div>
 
-            <button type="submit">Réserver</button>
+        <!-- Bouton pour envoyer la réservation -->
+        <div class="d-grid gap-2">
+          <button class="btn btn-dark" type="button">Envoyer</button>
+        </div>
         </section>
 
-        <section class="reservation" name="" id="res_soins">
-            <div class="titre mb-3">
+        <section class="reservation mb-4" name="" id="res_soins">
+            <div class="titre mb-3 text-center">
                 <h1>Réservation des Soins</h1>
                 <p>Réservez votre soin au Spad de l'Hôtel Chambord une expérience relaxante.</p>
             </div>
 
             <div class="mb-3">
-                <label for="pet-select">Type de Soin :</label>
-                <select id="pet-select">
+                <label for="pet-select" class="form-label">Type de Soin :</label>
+                <select id="pet-select" class="form-control">
                     <option value="">Choisissez une option</option>
                     <option value="dog">Dog</option>
                     <option value="cat">Cat</option>
@@ -129,18 +132,21 @@
                 <input type="date" class="form-control" id="exampleFormControlInput1">
             </div>
 
-            <button type="submit">Réserver</button>
+        <!-- Bouton pour envoyer la réservation -->
+        <div class="d-grid gap-2">
+          <button class="btn btn-dark" type="button">Envoyer</button>
+        </div>
         </section>
 
-        <section class="reservation" name="" id="res_table">
-            <div class="titre mb-3">
+        <section class="reservation mb-4" name="" id="res_table">
+            <div class="titre mb-3 text-center">
                 <h1>Réservation d'une table</h1>
                 <p>Réservez votre table au Restaurant de l'Hôtel Chambord</p>
             </div>
 
             <div class="mb-3">
-                <label for="pet-select">Type de table :</label>
-                <select id="pet-select">
+                <label for="pet-select" class="form-label">Type de table :</label>
+                <select id="pet-select" class="form-control">
                     <option value="">Choisissez une option</option>
                     <option value="dog">Dog</option>
                     <option value="cat">Cat</option>
@@ -163,7 +169,10 @@
                 <input type="time" class="form-control" id="exampleFormControlInput1">
             </div>
 
-            <button type="submit">Réserver</button>
+        <!-- Bouton pour envoyer la réservation -->
+        <div class="d-grid gap-2">
+          <button class="btn btn-dark" type="button">Envoyer</button>
+        </div>
         </section>
 
     </main>
